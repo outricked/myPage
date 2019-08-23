@@ -1,0 +1,11 @@
+.navbar-special{
+    background-color: rgba(32,33,36,1)!important;
+}
+
+.navbar-special .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-special .navbar-nav-special .nav-item-special .nav-link-special{
+    color: rgb(255, 255, 255);
+}
