@@ -23,3 +23,14 @@
     border-color: rgb(255,255,255);
 }
 
+.container{
+	display: block;
+	height: 300px;
+	text-align: center;
+}
+
+.header-name{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
