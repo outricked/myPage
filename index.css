@@ -24,13 +24,27 @@
 }
 
 .container{
-	display: block;
-	height: 300px;
-	text-align: center;
+    display: block;
+    height: 300px;
+    text-align: center;
+}
+
+.container-header{
+    display: block;
+    height: 100px;
+    text-align: center;
 }
 
 .header-name{
-	margin-top: 50px;
-	margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
+
+.background-container{
+    background-image: url(https://images2.alphacoders.com/611/611981.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    background-position: 50% 110%;
+    background-size: cover;
+}
