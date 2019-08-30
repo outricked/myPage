@@ -54,6 +54,7 @@
     -webkit-font-smoothing: antialiased;
     font-weight: 500;
     font-size: 40px;
+    animation-delay: .75s;
     text-align: center;
 }
 
@@ -61,19 +62,12 @@
     height: 4px;
     width: 300px;
     background-color: black;
-    animation-delay: .4s;
+    animation-delay: 1.5s;
     margin: 0 auto;
 }
 
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .animated{
-    animation-duration: .75s;
+    animation-duration: 1.25s;
     animation-timing-function: ease;
     animation-fill-mode: both;
     animation-name: slideinLeft;
@@ -93,6 +87,8 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-main{
