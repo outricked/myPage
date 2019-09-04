@@ -27,12 +27,12 @@ jQuery(document).ready(function(){
 
 
     //$("#special").click(function(e){
-    $(".background-container").mousemove(function(e){
-        //$('#status2').html(e.pageX +', '+ e.pageY);
-        //alert(e.pageX + ', ' + e.pageY);
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-        console.log(mouseX,mouseY);
+    // $(".background-container").mousemove(function(e){
+    //     //$('#status2').html(e.pageX +', '+ e.pageY);
+    //     //alert(e.pageX + ', ' + e.pageY);
+    //     mouseX = e.clientX;
+    //     mouseY = e.clientY;
+    //     console.log(mouseX,mouseY);
         
-    }); 
+    // }); 
 })
