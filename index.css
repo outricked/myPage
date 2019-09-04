@@ -32,6 +32,10 @@
 .header-name{
     margin-top: 50px;
     margin-bottom: 30px;
+    font-size: 60px;
+    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    letter-spacing: -.2rem;
+    
 }
 
 
@@ -53,14 +57,14 @@
 .header-about{
     -webkit-font-smoothing: antialiased;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 20px;
     animation-delay: .75s;
     text-align: center;
 }
 
 .header-bar{
     height: 4px;
-    width: 300px;
+    width: 100px;
     background-color: black;
     animation-delay: 1.5s;
     margin: 0 auto;
@@ -101,10 +105,34 @@
 
 .image-main img{
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 
+.flex.outer{
+    width: 1040px;
+}
 
+.flex.bullet-wrap{
+    flex-direction: column;
+    text-align: center;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 @keyframes slideinLeft {
   from {
